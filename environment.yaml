@@ -1,0 +1,12 @@
+name: project-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - ipykernel
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - scikit-learn
+prefix: /opt/miniconda3/envs/project-env
